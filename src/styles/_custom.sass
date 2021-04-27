@@ -1,0 +1,82 @@
+.list
+  width: 100%;
+  display: flex !important;    
+  &__item
+    &__bulletNumber
+      position: relative;
+      width: 30px;
+      height: 30px;
+      margin-top: 0.3rem;
+      margin-right: 1rem;   
+      text-align: center;
+      border-radius: 0%;
+      background-color: #FFA726;
+      span
+        color: white;
+        font-weight: 700;
+        font-size: small;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    &__number
+      position: relative;  
+      margin-right: 1rem;    
+      span            
+        color: orange;
+        font-size: 15pt;
+        font-weight: 700;
+        line-height: 1.2;
+    &__icon
+      position: relative;
+      width: 15px;
+      margin-top: 0.30rem;
+      margin-right: 0.65rem;
+      img
+        width: 15px;
+        vertical-align: middle;
+  &__txt
+    p:first-child, h3:first-child
+      margin-top: 0px;
+
+.txt-color
+  color: $color_sistema-i
+
+.bg-color1
+  background-color: $color-sistema-j
+
+.bg-color2
+  background-color: #4DD0E1;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+
+.bg-color3
+  background-color: #FFCA28;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+
+.hr1
+  border: 1px solid #AFAFAF
+  margin-bottom: 1.5rem
+  margin-left: 4rem
+
+.hr2
+  border: 1px solid #AFAFAF
+  margin-top: 1.5rem
+  margin-bottom: 1.5rem
+  margin-left: 4rem
+
+.hr3
+  border: 1px solid #AFAFAF
+  margin-top: 1.5rem
+  margin-left: 4rem
+
+.styleButton
+  background-color: #FFA726
+  padding: 10px 20px
+  border-radius: 10px
+  transition: all 800ms ease-out;
+
+.styleButton:hover
+  background-color: #AFAFAF
+  color: #FFFFFF
