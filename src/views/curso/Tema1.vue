@@ -660,7 +660,7 @@
         .col-md.col-lg-6
           .h2 Documentación caso de uso
           p.mb-4 A continuación, se presenta el formato diligenciado de acuerdo con el ejemplo del centro médico.
-          a.boton.boton--b(:href="obtenerLink('/downloads/Anexo3.xls')" target="_blank" type="application/pdf")
+          a.boton.boton--b(:href="obtenerLink('/downloads/Anexo4.pdf')" target="_blank" type="application/pdf")
             span Descargar
             i.fas.fa-file-download
     h5 1.3.2. Historias de usuario.
