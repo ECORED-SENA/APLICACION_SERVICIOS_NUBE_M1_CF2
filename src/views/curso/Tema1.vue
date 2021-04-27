@@ -376,6 +376,7 @@
           .col-md-6
             figure
               img(src='@/assets/curso/img10.png', style="max-width: 80%; margin: auto;")
+    hr
     p.mb-4 Las entrevistas se pueden clasificar fundamentalmente, en:
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
       .row(titulo="Entrevista estructurada")
@@ -702,9 +703,77 @@
     h5 Confirmación de los criterios de aceptación
     p.mb-4 Los criterios de aceptación, es decir, la confirmación. Se trata de criterios claros y específicos que todo el equipo debe comprender y que permitirán avaluar en el futuro si la implementación que se está desarrollando o las pruebas que se realicen están terminadas.
     p.mb-5 A continuación, un ejemplo de una historia de usuario usando plantilla.
-    figure.mb-4
-      img(src='@/assets/curso/img19.png', style="max-width: 100%; margin: auto;")
-      figcaption Figura 10 /Ejemplos de historias de usuario.
+    .tabla-a.mb-5 
+      table
+        caption Figura 10 / Ejemplos de historias de usuario.
+        thead
+          tr
+            th(colspan='5') Enunciado de la historia
+            th(colspan='3') Proceso
+        tbody
+          tr
+            td.table2 Identificador (ID) de la historia
+            td.table2 Rol
+            td.table2 características / Funcionalidad
+            td.table2 Razón / Resultado
+            td.table2 Número (#) de escenario
+            td.table2 Criterio de aceptación (Titulo)
+            td.table2 Contexto
+            td.table2 Evento
+          tr
+            td
+            td
+            td
+            td
+            td
+            td
+            td
+            td
+          tr
+            td.table1
+            td.table1
+            td.table1
+            td.table1
+            td.table1
+            td.table1
+            td.table1
+            td.table1
+          tr
+            td
+            td
+            td
+            td
+            td
+            td
+            td
+            td
+          tr
+            td.table1
+            td.table1
+            td.table1
+            td.table1
+            td.table1
+            td.table1
+            td.table1
+            td.table1
+          tr
+            td
+            td
+            td
+            td
+            td
+            td
+            td
+            td
+          tr
+            td.table1
+            td.table1
+            td.table1
+            td.table1
+            td.table1
+            td.table1
+            td.table1
+            td.table1
     .row.mb-5
       .col-6
         a.anexo.mb-4(:href="obtenerLink('/downloads/Anexo3.xls')" target="_blank")
