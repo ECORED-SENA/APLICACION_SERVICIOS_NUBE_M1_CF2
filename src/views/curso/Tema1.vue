@@ -62,12 +62,10 @@
           tr
             td #[b E.] Captura de interesados.
             td Plan de captura de interesados.
-    figure.mb-5
-      img(src='@/assets/curso/img1.png', alt='Texto que describa la imagen')
     p.mb-5 A continuación, se describen los procesos relacionados con las tareas para elicitación de requisitos:
     .row.align-items-start.mb-4
       .col-lg-6
-        h3 #[span.txt-color A.] Identificar las fuentes de requerimientos.
+        h5 #[span.txt-color A.] Identificar las fuentes de requerimientos.
         p Existe un conjunto de fuentes de requisitos en cada proyecto de desarrollo de software, así, usuarios y expertos abastecen de información detallada acerca del problema y necesidades del usuario. Los procesos y sistemas existentes representan, también, fuentes de requisitos; además, la documentación existente como manuales, formularios y reportes, incluso especificaciones de requisitos anteriores, puede proveer información útil acerca de la organización y su entorno.
       .col-lg-6.mt-4.mt-lg-0
         figure
@@ -123,7 +121,7 @@
       img(src='@/assets/curso/img3.png', style="max-width: 100%; margin: auto;")
     .row.align-items-start.mb-4.pt-5
       .col-lg-6
-        h3 #[span.txt-color B.] Identificar interesados del producto.
+        h5 #[span.txt-color B.] Identificar interesados del producto.
         p.mb-4 Uno de los primeros pasos en el proceso es el análisis e identificación de todas las personas relevantes que tienen un grado de interés en el proyecto. #[b Los interesados (stakeholders), son los individuos y organizaciones que están relacionados activamente en un proyecto de software]; tienen influencia directa o indirecta sobre los requisitos, o sus intereses se ven afectados por el proyecto (Baar, 2006, Ventura, 2002).
         p En resumen, son grupos o individuos que están interesados en el producto de software que se está desarrollando y necesitarán estar informados acerca del progreso, conflictos, cambios y prioridades del proceso de desarrollo del producto.
       .col-lg-6.mt-4.mt-lg-0
@@ -217,14 +215,14 @@
     p.mb-4 Algunas de las técnicas que se pueden emplear para llevar a cabo la labor de análisis de los stakeholders incluyen entrevistas con los expertos, lluvia de ideas en grupo y lista de chequeo. Se espera que este grupo de personas identifiquen y caractericen a los stakeholders objetivamente, por tal motivo es recomendable involucrar a personas de diferentes contextos (Karisen, 2002 citado en Wessinger, 2012).
     .row.align-items-start.mb-5.pt-5
       .col-lg-6
-        h3 #[span.txt-color C.] Matriz de stakeholders.
+        h5 #[span.txt-color C.] Matriz de stakeholders.
         p.mb-4 La utilización de esta #[b herramienta de análisis permite clasificar a los involucrados en el proyecto según sus niveles de interés y poder sobre él], lo que facilita la priorización de los stakeholders más importantes para desarrollar las estrategias de gestión correspondientes.
       .col-lg-6.mt-4.mt-lg-0
         figure
           img(src='@/assets/curso/img5.png', style="max-width: 80%; margin: auto;")
-    h3 Importancia de la matriz de stakeholders en los proyectos de desarrollo.
+    h5 Importancia de la matriz de stakeholders en los proyectos de desarrollo.
     p.mb-5 En los proyectos de desarrollo, la gestión de los stakeholders es de suma importancia para alcanzar el éxito de los proyectos, ya que el proceso de identificación de los involucrados y la definición de sus niveles de interés e influencia en el proyecto, marcarán el punto de partida para desarrollar estrategias que posibilitan obtener el apoyo requerido para alcanzar los objetivos por los que el proyecto es emprendido. Es por ello, que la matriz de stakeholders es una herramienta indispensable desde el comienzo del proyecto mismo, ya que proveerá de la información necesaria para gestionar, adecuadamente, las expectativas de los involucrados a lo largo del proyecto, maximizando las influencias positivas y mitigando los impactos negativos potenciales derivados de estos. Además, dado el carácter social de los proyectos de desarrollo, involucrar a la sociedad civil no debe ser solo un ejercicio de comunicación unidireccional sino una oportunidad para lograr su apoyo al proyecto.
-    h3 Proceso de armado de la matriz de stakeholders.
+    h5 Proceso de armado de la matriz de stakeholders.
     p.mb-5 Para desarrollar la matriz de stakeholders es necesario identificar las entradas necesarias que proveerán la información con la que el líder y el equipo de proyecto trabajarán para desarrollar la matriz misma. Tales entradas pueden ser el acta de constitución de proyecto, documentos de adquisición, activos de los procesos y factores ambientales de la organización.
     figure.mb-5
       img(src='@/assets/curso/img6.png', style="max-width: 100%; margin: auto;")
@@ -236,7 +234,7 @@
             img(src="@/assets/template/icono-link.svg")
           .anexo__texto
             p #[b Anexo.] Para profundizar en detalle, se invita a consultar la Guía PMBOK 6 - 49 procesos, entradas, herramientas y salidas, como material complementario.
-    h3 Descripción de los componentes de la matriz de stakeholders.
+    h5 Descripción de los componentes de la matriz de stakeholders.
     p.mb-4 A continuación, se presenta el concepto de cada uno de los componentes que estructuran la matriz de stakeholders.
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
       .row(titulo="Stakeholder")
@@ -262,7 +260,7 @@
         .row
           .col-12
             p Es la síntesis sobre puntos clave a considerar para gestionar de manera efectiva las expectativas de los stakeholders. Las conclusiones se obtienen de relacionar, analizar y sintetizar toda la información vertida en la matriz de stakeholders.
-    h3 Categorización de stakeholders y estrategias de gestión de las expectativas.
+    h5 Categorización de stakeholders y estrategias de gestión de las expectativas.
     p.mb-4 Como ya se había mencionado anteriormente, la matriz de stakholders es una herramienta muy útil que permite clasificar a los involucrados en el proyecto según sus niveles de interés e influencia, priorizando a los más importantes y desarrollando así las estrategias correspondientes para gestionar sus expectativas. De la misma manera, su clasificación puede cambiar durante la vida del proyecto. Así, aquellos que fueron inicialmente identificados con un alto nivel de influencia en el proyecto, pueden ser reclasificados a un nivel más bajo durante otras etapas de la vida del proyecto.
     p.mb-5 La categorización de los stakeholders se lleva a cabo una vez que la información sobre éstos esté completa. Para ello se puede utilizar una matriz de 2x2 en la que se pueda graficar el grado de poder e interés que tiene el involucrado en el proyecto, coadyuvando así a clasificar a cada stakeholder dentro del grupo para el cual se definen diferentes estrategias (figura 2).
     figure.mb-5
@@ -281,7 +279,7 @@
           br
           p(style="position: relative;") - (Braude, 2003)
     p.mb-5 En las entrevistas se pueden identificar tres fases: preparación, realización y análisis (Piattini et al. 1996), como se puede observar en el siguiente gráfico.
-    TabsB.mb-5
+    TabsB
       .py-4.py-md-5(titulo="Preparación" :icono="require('@/assets/curso/img6.svg')")
         .row.align-items-center
           .col-md-6.mb-4.mb-md-0
@@ -377,7 +375,7 @@
             figure
               img(src='@/assets/curso/img10.png', style="max-width: 80%; margin: auto;")
     hr
-    p.mb-4 Las entrevistas se pueden clasificar fundamentalmente, en:
+    p.my-5.pt-5 Las entrevistas se pueden clasificar fundamentalmente, en:
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
       .row(titulo="Entrevista estructurada")
         .col-12
@@ -662,8 +660,8 @@
           .h2 Documentación caso de uso
           p.mb-4 A continuación, se presenta el formato diligenciado de acuerdo con el ejemplo del centro médico.
           a.boton.boton--b(:href="obtenerLink('/downloads/Anexo4.pdf')" target="_blank" type="application/pdf")
-            span Descargar
-            i.fas.fa-file-download
+            span(style="color: #000") Descargar
+            i(style="color: #000").fas.fa-file-download
     h5 1.3.2. Historias de usuario.
     p.mb-4 Las historias de usuario son utilizadas en los métodos agiles para la especificación de requisitos, son una descripción breve de una funcionalidad software tal y como la percibe el usuario (Cohn, 2004).
     p.mb-5 El formato para las historias de usuario Scrum se basan en una regla de tres palabras:
@@ -851,11 +849,11 @@
     .row.align-items-start.mb-5
       .col-lg-6
         figure
-          img(src='@/assets/curso/img22.png', style="max-width: 100%; margin: auto;")
+          img(src='@/assets/curso/img22.jpg', style="max-width: 100%; margin: auto;")
           figcaption Figura 11 /Escenario representado en formato de storyboard que representa una situación típica tal y como se realiza actualmente.
       .col-lg-6.mt-4.mt-lg-0
         figure
-          img(src='@/assets/curso/img23.png', style="max-width: 100%; margin: auto;")
+          img(src='@/assets/curso/img23.jpg', style="max-width: 100%; margin: auto;")
           figcaption Figura 12 /Escenario representado en formato de storyboard que representa la misma situación anterior tal como quedará con la implementación del sistema.
     #t_1_4
     .titulo-segundo.pt-5
