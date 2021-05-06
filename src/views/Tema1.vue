@@ -671,7 +671,7 @@
         figure
           img(src='@/assets/curso/img17.png', style="max-width: 100%; margin: auto;")
           figcaption Figura 8 /Regla de tres palabras.
-    p.mb-4 Así, el #[b &lt;rol&gt;] que se escoja que va a utilizar la aplicación software, requiere de una #[b &lt;Acción&lt;] / #[b &lt; evento &gt;] que ocurra, porque se desea cubrir una #[b &lt;funcionalidad&gt;]. Corto y conciso, directo y claro.
+    p.mb-4 Así, el #[b &lt;rol&gt;] que se escoja que va a utilizar la aplicación software, requiere de una #[b &lt;Acción&gt;] / #[b &lt;evento&gt;] que ocurra, porque se desea cubrir una #[b &lt;funcionalidad&gt;]. Corto y conciso, directo y claro.
     p.mb-5 En las siguientes figuras se presentan ejemplos de historias de usuario.
     .row.justify-content-center.mb-5
       .col-10.col-lg-8
