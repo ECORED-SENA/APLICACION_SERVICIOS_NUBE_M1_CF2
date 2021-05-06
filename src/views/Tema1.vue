@@ -398,7 +398,13 @@
               .list__item__icon
                 img.img-a1(src="@/assets/template/icon-list1.svg").img-fluid  
             .list__txt
-              p.mt-2 Las etapas son planificadas. d. La interpretación de las respuestas se realiza de acuerdo con unos criterios establecidos.
+              p.mt-2 Las etapas son planificadas.
+          .list.align-items-star.mt-2
+            .list__item
+              .list__item__icon
+                img.img-a1(src="@/assets/template/icon-list1.svg").img-fluid  
+            .list__txt
+              p.mt-2 La interpretación de las respuestas se realiza de acuerdo con unos criterios establecidos.
           .row.mt-5
             .col-lg-6
               a.anexo.mb-4(:href="obtenerLink('/downloads/Anexo1.pdf')" target="_blank")
