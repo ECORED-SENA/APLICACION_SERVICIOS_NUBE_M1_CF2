@@ -39,7 +39,7 @@
     .titulo-segundo.pt-5
       .h4 1.1. Planeación
     p.mb-5 La planeación busca definir las tareas a realizar para elegir y planificar las técnicas a emplear durante la actividad de elicitación de la fase de ingeniería de requisitos del desarrollo de software. En la siguiente tabla se presenta una relación de estas tareas y sus correspondientes procesos.
-    .tabla-a.mb-5 
+    .tabla-a
       table
         caption Tabla 1/ Tareas para elicitación de requisitos.
         thead
@@ -62,6 +62,7 @@
           tr
             td #[b E.] Captura de interesados.
             td Plan de captura de interesados.
+    p.mb-5.mt-3  #[b Nota:] tomado de Durán y Bernárdez (2001)
     p.mb-5 A continuación, se describen los procesos relacionados con las tareas para elicitación de requisitos:
     .row.align-items-start.mb-4
       .col-lg-6
@@ -183,7 +184,7 @@
       .list__txt
         p.mt-2 Administrador de bases de datos.
     p.mb-5 En la siguiente tabla se presentan los principales roles involucrados en el proceso de ingeniería de requisitos, así como las actividades en las que tienen mayor participación.
-    .tabla-a.mb-5 
+    .tabla-a
       table
         caption Tabla 2/ Roles involucrados en la ingeniería de requisitos.
         thead
@@ -212,8 +213,7 @@
           tr
             td #[b Arquitecto]
             td Es el responsable del diseño de alto nivel y es clave a la hora de precisar los atributos de calidad del producto.
-          tr
-            td(colspan="2") #[b Nota: tomado de Durán y Bernández (2001)]
+    p.mb-5.mt-3  #[b Nota:] tomado de Ventura (2002)
     p.mb-4 Algunas de las técnicas que se pueden emplear para llevar a cabo la labor de análisis de los stakeholders incluyen entrevistas con los expertos, lluvia de ideas en grupo y lista de chequeo. Se espera que este grupo de personas identifiquen y caractericen a los stakeholders objetivamente, por tal motivo es recomendable involucrar a personas de diferentes contextos (Karisen, 2002 citado en Wessinger, 2012).
     .row.align-items-start.mb-5.pt-5
       .col-lg-6
@@ -264,10 +264,11 @@
             p Es la síntesis sobre puntos clave a considerar para gestionar de manera efectiva las expectativas de los stakeholders. Las conclusiones se obtienen de relacionar, analizar y sintetizar toda la información vertida en la matriz de stakeholders.
     h5 Categorización de stakeholders y estrategias de gestión de las expectativas.
     p.mb-4 Como ya se había mencionado anteriormente, la matriz de stakholders es una herramienta muy útil que permite clasificar a los involucrados en el proyecto según sus niveles de interés e influencia, priorizando a los más importantes y desarrollando así las estrategias correspondientes para gestionar sus expectativas. De la misma manera, su clasificación puede cambiar durante la vida del proyecto. Así, aquellos que fueron inicialmente identificados con un alto nivel de influencia en el proyecto, pueden ser reclasificados a un nivel más bajo durante otras etapas de la vida del proyecto.
-    p.mb-5 La categorización de los stakeholders se lleva a cabo una vez que la información sobre éstos esté completa. Para ello se puede utilizar una matriz de 2x2 en la que se pueda graficar el grado de poder e interés que tiene el involucrado en el proyecto, coadyuvando así a clasificar a cada stakeholder dentro del grupo para el cual se definen diferentes estrategias (figura 2).
-    figure.mb-5
+    p.mb-4 La categorización de los stakeholders se lleva a cabo una vez que la información sobre éstos esté completa. Para ello se puede utilizar una matriz de 2x2 en la que se pueda graficar el grado de poder e interés que tiene el involucrado en el proyecto, coadyuvando así a clasificar a cada stakeholder dentro del grupo para el cual se definen diferentes estrategias (figura 2).
+    figure
       img(src='@/assets/curso/img7.png', style="max-width: 100%; margin: auto;")
       figcaption Figura 2 / Ejemplo de matriz interés vs. influencia.
+    p.mt-3.mb-5 #[b Nota: ]tomado de Gardnet et al. (1986)
     #t_1_2
     .titulo-segundo.pt-5
       .h4 1.2   Técnicas e instrumentos para elicitar requisitos
@@ -669,6 +670,7 @@
           a.boton.boton--b(:href="obtenerLink('/downloads/Anexo4.pdf')" target="_blank" type="application/pdf")
             span(style="color: #000") Descargar
             i(style="color: #000").fas.fa-file-download
+          p.mt-3.mb-4 #[b Nota: ]tomado de Gutierrez (s.f.)
     h5 1.3.2. Historias de usuario.
     p.mb-4 Las historias de usuario son utilizadas en los métodos agiles para la especificación de requisitos, son una descripción breve de una funcionalidad software tal y como la percibe el usuario (Cohn, 2004).
     p.mb-5 El formato para las historias de usuario Scrum se basan en una regla de tres palabras:
@@ -677,6 +679,7 @@
         figure
           img(src='@/assets/curso/img17.png', style="max-width: 100%; margin: auto;")
           figcaption Figura 8 /Regla de tres palabras.
+        p.mt-3.mb-4 #[b Nota: ]tomado de Martin (s.f.)
     p.mb-4 Así, el #[b &lt;rol&gt;] que se escoja que va a utilizar la aplicación software, requiere de una #[b &lt;Acción&gt;] / #[b &lt;evento&gt;] que ocurra, porque se desea cubrir una #[b &lt;funcionalidad&gt;]. Corto y conciso, directo y claro.
     p.mb-5 En las siguientes figuras se presentan ejemplos de historias de usuario.
     .row.justify-content-center.mb-5
@@ -684,6 +687,7 @@
         figure
           img(src='@/assets/curso/img18.png', style="max-width: 100%; margin: auto;")
           figcaption Figura 9 /Ejemplos historias de usuario.
+          p.mt-3.mb-4 #[b Nota: ]tomado de fatto www.fattocs.com <a href="http://i.ytimg.com/vi/Zi9E1aUO_1U/hqdefault.jpg" target="_blanck">http://i.ytimg.com/vi/Zi9E1aUO_1U/hqdefault.jpg</a>
     h5 Conversación para explicar mejor la historia de usuario
     p.mb-4 Como se mencionó anteriormente, las historias de usuario son una frase sencilla y concisa, sin embargo, eso no impide que se pueda abrir un diálogo (conversación) entre todos los miembros del equipo. De hecho, esta conversación se debe llevar a cabo para explicar mejor la propia historia de usuario y conseguir objetivos como:
     .list.align-items-star.mt-2
@@ -785,7 +789,8 @@
           .anexo__icono
             img(src="@/assets/template/icono-xls.svg")
           .anexo__texto
-            p #[b Anexo.] Revisar el anexo Plantilla de Historias de Usuario, para analizar su estructura.
+            p.mb-3 #[b Anexo.] Revisar el anexo Plantilla de Historias de Usuario, para analizar su estructura.
+            p #[b Nota: ] Tomado de la oficina de proyectos de informática. (2012)
     h5 1.3.3. Storyboard.
     figure.my-5
       img(src='@/assets/curso/img20.png', style="max-width: 100%; margin: auto;")
@@ -858,10 +863,12 @@
         figure
           img(src='@/assets/curso/img22.jpg', style="max-width: 100%; margin: auto;")
           figcaption Figura 11 /Escenario representado en formato de storyboard que representa una situación típica tal y como se realiza actualmente.
+        p.mt-3 #[b Nota: ]Tomado de Granollers, Lorés y Perdrix (2002)
       .col-lg-6.mt-4.mt-lg-0
         figure
           img(src='@/assets/curso/img23.jpg', style="max-width: 100%; margin: auto;")
           figcaption Figura 12 /Escenario representado en formato de storyboard que representa la misma situación anterior tal como quedará con la implementación del sistema.
+        p.mt-3 #[b Nota: ]Tomado de Granollers, Lorés y Perdrix (2002)
     #t_1_4
     .titulo-segundo.pt-5
       .h4 1.4. Herramientas de modelado
@@ -977,6 +984,7 @@
             figure
               img(src='@/assets/curso/img24.png', style="max-width: 100%; margin: auto;")
               figcaption Figura 13 /Herramienta Gliffy.
+            p.mt-3 #[b Nota: ]Tomado de <a href="https://www.gliffy.com/" target="_blank">https://www.gliffy.com/</a>
       .py-3.py-md-4(titulo="ArgoUML")
         .row
           .col-12
@@ -985,6 +993,7 @@
             figure
               img(src='@/assets/curso/img25.png', style="max-width: 100%; margin: auto;")
               figcaption Figura 14 /Herramienta de modelado ArgoUML.
+            p.mt-3 #[b Nota: ]Tomado de <a href="https://www.ionos.es/digitalguide/paginas-web/desarrollo-web/las-mejores-herramientas-uml/" target="_blank">https://www.ionos.es/digitalguide/paginas-web/desarrollo-web/las-mejores-herramientas-uml/</a>
       .py-3.py-md-4(titulo="MagicDraw")
         .row
           .col-12
@@ -993,6 +1002,7 @@
             figure
               img(src='@/assets/curso/img26.png', style="max-width: 100%; margin: auto;")
               figcaption Figura 15 /Herramienta de modelado MagicDraw.
+            p.mt-3 #[b Nota: ]Tomado de <a href="http://www.magicdraw.com" target="_blank">http://www.magicdraw.com</a>
       .py-3.py-md-4(titulo="StarUML")
         .row
           .col-12
@@ -1055,6 +1065,7 @@
             figure
               img(src='@/assets/curso/img27.png', style="max-width: 100%; margin: auto;")
               figcaption Figura 16 /Herramienta de modelado StarUML.
+            p.mt-3 #[b Nota: ]Tomado de <a href="https://staruml.io/" target="_blank">https://staruml.io/</a>
       .py-3.py-md-4(titulo="Lucidchart")
         .row
           .col-12
@@ -1062,6 +1073,7 @@
             figure
               img(src='@/assets/curso/img28.png', style="max-width: 100%; margin: auto;")
               figcaption Figura 17 /Herramienta de modelado Lucidchart.
+            p.mt-3 #[b Nota: ]Tomado de <a href="https://www.lucidchart.com/" target="_blank">https://www.lucidchart.com/</a>
 
 </template>
 
