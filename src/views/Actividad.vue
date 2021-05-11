@@ -7,7 +7,7 @@
       .titulo-principal__numero
         .h3
           i.fas.fa-question-circle
-      .h3 Actividad didactica
+      .h3 Actividad didáctica
     
     .row.align-items-center.justify-content-center
         .col-8.col-md-5.col-xl-4.mb-5
